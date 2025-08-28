@@ -1,0 +1,123 @@
+
+
+/* nav bar disine */
+.mobail-nevbar{
+    display: none;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.nav-title{
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link ul{
+    display: flex;
+    gap: 34px;
+}
+.nav-link li {
+    list-style: none;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.nav-link a:hover{
+    text-decoration: underline;
+}
+.header-title-main{
+    display: flex;
+    gap: 250px;
+    margin-top: 150px;
+}
+.header-title{
+    width: 40%;
+}
+.header-image{
+    
+    background-image: url('Circle\ design.svg');
+}
+.header-title1{
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: left; 
+    margin-bottom: 16px; 
+}
+.header-dix{
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left; 
+    word-spacing: 5px;   
+    margin-bottom: 16px;
+}
+.header-batton{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    background: rgba(224, 44, 109, 1);
+}
+
+/* main section :start  */
+
+/* main section end  */
+
+/* mobail iscrin rensponciv */
+@media screen and (max-width:576px){
+    /* header section  */
+    .nav-bar{
+        display: none;
+    }
+    .mobail-nevbar{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .header-title-main{
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+        margin-top: -220px;
+    }
+    .header-image-main{
+        text-align: center;
+    }
+    .header-title1, .header-dix{
+        text-align: center;
+    }
+    /* header section and  */
+
+
+}
+
