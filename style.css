@@ -184,8 +184,43 @@ main{
   }
 /* main section end  */
 
-
-
+footer{
+     max-width: 1440px;
+     margin: 0 auto;
+}
+.main-footer{
+    background: rgba(10, 8, 38, 1);
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+}
+.footr-title{
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-dex1{
+    color: rgba(255, 255, 255, 1);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-dix2{
+    color: rgba(255, 255, 255, 1);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.image{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 2rem;
+}
 /* mobail iscrin rensponciv */
 @media screen and (max-width:576px){
     /* header section  */
@@ -244,10 +279,11 @@ main{
         flex-direction: column-reverse;
         gap: 40px;
         margin-bottom: 50px;
+       justify-content: center;
+       align-items: center;
      }
      .prodact, .prodact-title, .prodact-dex{
         text-align: center;
      }
-     
 }
 
